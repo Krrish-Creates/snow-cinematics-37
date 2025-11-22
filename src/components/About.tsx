@@ -24,7 +24,7 @@ export const About = () => {
             animate={isInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            About <span className="text-primary">Snow</span>
+            About <span className="text-primary">Me</span>
           </motion.h2>
           
           <motion.div
@@ -34,19 +34,28 @@ export const About = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
           >
             <p>
-              Snow is a <span className="text-primary font-semibold">cinematographer</span> who brings stories to life through the lens. 
-              With expertise in both <span className="text-foreground font-medium">videography and editing</span>, every frame is crafted 
-              with depth, intention, and narrative precision.
+              I don't just shoot videos — I solve problems through <span className="text-primary font-semibold">cinematic storytelling</span>. 
+              Every frame I craft is designed with one purpose: to help my clients achieve the results they're after.
             </p>
             
             <p>
-              Serving <span className="text-foreground font-medium">GTA and Canada</span> for on-location videography shoots, 
-              Snow specializes in music videos, brand content, and influencer collaborations that demand cinematic excellence.
+              Take Marcus, for example. He was pulling <span className="text-foreground font-medium">millions of views</span> on his content, 
+              but his conversion rate was barely breaking 2%. The issue wasn't attention — it was intention. I restructured his videos 
+              to focus on <span className="text-foreground font-medium">narrative clarity and emotional hooks</span>. His views dropped to 
+              200k–300k per video, but his conversion rate skyrocketed to <span className="text-primary font-semibold">12%</span>. 
+              Quality over vanity metrics — every time.
             </p>
             
             <p>
-              For clients worldwide, Snow offers premium <span className="text-foreground font-medium">video editing services</span> — 
-              transforming raw footage into polished, impactful stories that resonate with audiences.
+              Then there was Daniel. His message was powerful, but his <span className="text-foreground font-medium">positioning was unclear</span>. 
+              Audiences didn't know what he stood for. I worked with him to refine his branding theme, adjusted how he presented himself on camera, 
+              and gave his content a <span className="text-foreground font-medium">cohesive visual identity</span>. The result? His audience finally 
+              understood his value — and they started converting.
+            </p>
+
+            <p>
+              Whether it's videography in the <span className="text-foreground font-medium">GTA and across Canada</span>, or editing for clients 
+              worldwide, I bring the same approach: <span className="text-primary font-semibold">strategy meets cinema</span>.
             </p>
 
             <p className="text-center pt-6">
@@ -54,7 +63,7 @@ export const About = () => {
             </p>
             
             <p className="text-center italic text-primary/80">
-              "Every project is an opportunity to create something extraordinary."
+              "Know thyself." — Socrates
             </p>
           </motion.div>
         </motion.div>
