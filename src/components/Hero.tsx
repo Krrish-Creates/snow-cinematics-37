@@ -35,13 +35,14 @@ export const Hero = () => {
           transition={{ duration: 1, delay: 0.3 }}
         >
           <motion.h1
-            className="font-heading text-6xl md:text-8xl lg:text-9xl font-black mb-6 tracking-tight"
+            className="font-heading text-4xl md:text-7xl lg:text-9xl font-black mb-6 tracking-tight"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.5 }}
           >
             <span className="text-foreground">Snow</span>
-            <span className="block text-primary glow-text">Cinematographer</span>
+            <span className="text-primary glow-text"> ~ </span>
+            <span className="text-primary glow-text">Cinematographer</span>
           </motion.h1>
           
           <motion.p
