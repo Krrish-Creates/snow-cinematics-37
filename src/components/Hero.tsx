@@ -40,9 +40,8 @@ export const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.5 }}
           >
-            <span className="text-foreground">Snow</span>
-            <span className="text-primary glow-text"> ~ </span>
-            <span className="text-primary glow-text">The Sculptor</span>
+            <span className="text-foreground block">Snow</span>
+            <span className="text-primary glow-text block">The Sculptor</span>
           </motion.h1>
           
           <motion.p

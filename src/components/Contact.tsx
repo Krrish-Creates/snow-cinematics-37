@@ -64,7 +64,7 @@ export const Contact = () => {
             transition={{ duration: 0.6, delay: 0.8 }}
           >
             <a
-              href="https://www.instagram.com/hey._krrishma/"
+              href="https://www.instagram.com/hey._krrishma"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors duration-300"
