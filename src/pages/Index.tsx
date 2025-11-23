@@ -5,7 +5,6 @@ import { Services } from "@/components/Services";
 import { Portfolio } from "@/components/Portfolio";
 import { Testimonials } from "@/components/Testimonials";
 import { Contact } from "@/components/Contact";
-import { ThemeToggle } from "@/components/ThemeToggle";
 import { SnowflakeCursor } from "@/components/SnowflakeCursor";
 import { ProgressBar } from "@/components/ProgressBar";
 
@@ -13,7 +12,6 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <ProgressBar />
-      <ThemeToggle />
       <SnowflakeCursor />
       <Navigation />
       <main>

@@ -42,7 +42,7 @@ export const Hero = () => {
           >
             <span className="text-foreground">Snow</span>
             <span className="text-primary glow-text"> ~ </span>
-            <span className="text-primary glow-text">Cinematographer</span>
+            <span className="text-primary glow-text">The Sculptor</span>
           </motion.h1>
           
           <motion.p
