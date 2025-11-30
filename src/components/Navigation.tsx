@@ -56,7 +56,7 @@ export const Navigation = () => {
                 asChild
               >
                 <a href="https://calendly.com/krrishsharma1508/discovery-call" target="_blank" rel="noopener noreferrer">
-                  Book Call
+                  Let's Talk
                 </a>
               </Button>
             </div>

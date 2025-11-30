@@ -73,7 +73,7 @@ export const Hero = () => {
               asChild
             >
               <a href="https://calendly.com/krrishsharma1508/discovery-call" target="_blank" rel="noopener noreferrer">
-                Book a Discovery Call
+                Let's Talk
                 <ArrowRight className="ml-2 h-5 w-5" />
               </a>
             </Button>
