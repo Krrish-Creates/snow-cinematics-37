@@ -51,7 +51,7 @@ export const Contact = () => {
               asChild
             >
               <a href="https://calendly.com/krrishsharma1508/discovery-call" target="_blank" rel="noopener noreferrer">
-                Book a Discovery Call
+                Let's Talk
                 <ArrowRight className="ml-2 h-5 w-5" />
               </a>
             </Button>
@@ -64,14 +64,14 @@ export const Contact = () => {
             transition={{ duration: 0.6, delay: 0.8 }}
           >
             <a
-              href="https://www.instagram.com/hey._krrishma/"
+              href="https://www.instagram.com/shot.on.snow"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors duration-300"
               aria-label="Instagram"
             >
               <Instagram className="w-6 h-6" />
-              <span className="text-sm">hey._krrishma</span>
+              <span className="text-sm">shot.on.snow</span>
             </a>
             <a
               href="https://www.linkedin.com/in/naveesh-sharma/"

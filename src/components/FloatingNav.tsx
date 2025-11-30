@@ -101,7 +101,7 @@ export const FloatingNav = () => {
                       rel="noopener noreferrer"
                       onClick={() => setIsOpen(false)}
                     >
-                      Book Call
+                      Let's Talk
                     </a>
                   </Button>
                 </motion.div>
